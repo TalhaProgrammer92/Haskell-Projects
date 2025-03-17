@@ -1,3 +1,7 @@
+# Learning Roadmap of Haskell
+
+- - -
+
 ### 🚀 **One-Day Haskell Learning Plan** (From Zero to Functional Hero)  
 
 This plan assumes **intense focus for one day (~6–8 hours total)**. If you follow this, you'll cover **all** the fundamentals **fast**.  
@@ -208,3 +212,132 @@ Use all the concepts in a **real program**.
 ### 🤖 **Next Steps?**  
 - **Day 2:** Learn **Monads & IO Monad** (Real functional programming power).  
 - **Day 3:** Build **a small project** in Haskell (maybe even **Tic-Tac-Toe**).
+
+- - -
+
+# Practice Problems of Haskell
+
+- - -
+
+You're right! Here’s a **structured roadmap** with **practice questions** for each concept to **master Haskell step by step.** 🚀🔥  
+
+---
+
+## **🚀 Haskell Learning Roadmap with Practice Questions**
+> **Goal:** Learn Haskell fundamentals in **one day** with hands-on coding.  
+
+### **📌 Step 1: Basic I/O & Variables**
+#### **Concepts:**
+- `putStrLn` → Print a string with newline  
+- `putStr` → Print without newline  
+- `getLine` → Take user input (returns a string)  
+- `read` & `show` → Convert between string & other types  
+
+#### **Practice Questions:**  
+1️⃣ Write a program that asks for the user's name and age, then prints:  
+   `"Hello [name], you are [age] years old!"`  
+
+2️⃣ Modify your program to ask for two numbers and print their **sum**.  
+
+---
+
+### **📌 Step 2: Conditionals (`if-else`, Guards)**
+#### **Concepts:**
+- `if-else` syntax  
+- Guards (`| condition = result`)  
+- `otherwise` as the default case  
+
+#### **Practice Questions:**  
+3️⃣ Write a program that asks for a number and prints **"Even"** or **"Odd"**.  
+
+4️⃣ Write a function `maxOfThree a b c` that returns the largest of three numbers.  
+
+---
+
+### **📌 Step 3: Functions & Recursion**
+#### **Concepts:**
+- Defining functions  
+- Recursion (Haskell doesn’t have loops like other languages)  
+- Pattern matching  
+
+#### **Practice Questions:**  
+5️⃣ Write a recursive function `factorial n` to compute `n!`.  
+
+6️⃣ Write a recursive function `fib n` to return the `n`th Fibonacci number.  
+
+---
+
+### **📌 Step 4: Lists & List Operations**
+#### **Concepts:**
+- Creating lists (`[1, 2, 3, 4]`, `[1..10]`)  
+- List functions (`length`, `head`, `tail`, `reverse`)  
+- List comprehensions  
+
+#### **Practice Questions:**  
+7️⃣ Write a function `sumList lst` that returns the sum of all elements in a list.  
+
+8️⃣ Create a list comprehension that returns all **even** numbers from 1 to 50.  
+
+---
+
+### **📌 Step 5: Higher-Order Functions (`map`, `filter`, `foldl`)**
+#### **Concepts:**
+- `map` → Apply a function to every list element  
+- `filter` → Keep only elements that satisfy a condition  
+- `foldl` → Reduce a list to a single value  
+
+#### **Practice Questions:**  
+9️⃣ Write a function `squareList lst` that returns a new list with each number squared.  
+
+🔟 Write a function `sumEven lst` that sums all **even numbers** in a list using `filter`.  
+
+---
+
+### **📌 Step 6: Custom Data Types & Pattern Matching**
+#### **Concepts:**
+- Creating `data` types  
+- Pattern matching with `case`  
+- Using `deriving Show`  
+
+#### **Practice Questions:**  
+1️⃣1️⃣ Define a data type `Shape` with constructors for `Circle r` and `Rectangle w h`.  
+Write a function `area` that calculates the area of a shape.  
+
+1️⃣2️⃣ Define a `Person` type with `name` and `age`. Write a function `isAdult` that returns `True` if age ≥ 18.  
+
+---
+
+### **📌 Step 7: Lazy Evaluation & Infinite Lists**
+#### **Concepts:**
+- Lazy evaluation  
+- Infinite lists (`[1..]`, `cycle`, `repeat`, `iterate`)  
+
+#### **Practice Questions:**  
+1️⃣3️⃣ Create an infinite list of all Fibonacci numbers and print the first 10 elements.  
+
+1️⃣4️⃣ Use `take` to get the first 10 even numbers from an infinite list.  
+
+---
+
+### **📌 Step 8: Modules & Importing Libraries**
+#### **Concepts:**
+- Importing modules  
+- Using `Data.List` for advanced list functions  
+- Using `System.IO` for file handling  
+
+#### **Practice Questions:**  
+1️⃣5️⃣ Write a program to read a file, reverse its content, and write to a new file.  
+
+1️⃣6️⃣ Use the `sort` function from `Data.List` to sort a list of numbers.  
+
+---
+
+## **🔥 Final Challenge: Build a Small Project**
+1️⃣7️⃣ **FizzBuzz Generator**: Modify the `fizzBuzz` function to work for an **infinite** list and print first 30 results.  
+
+1️⃣8️⃣ **Mini Calculator**: Write a simple REPL (Read-Eval-Print Loop) where users enter a math expression (`"5 + 3"`) and get the result.  
+
+---
+
+### **⏳ How to Follow This Plan?**
+⏳ Spend **15-30 min per step** and **code each solution**. In **one day**, you’ll have solid **Haskell fundamentals**! 🚀  
