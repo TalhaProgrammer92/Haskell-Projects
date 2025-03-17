@@ -14,7 +14,7 @@ main = do
     num2 <- getLine
 
     -- Calculate the sum
-    let sum = (read num1 :: Int) + (read num2 :: Int)
+    let sum = (read num1 :: Int) + (read num2 :: Int)   -- read is used to convert string to integer
 
     -- Display the sum
-    putStrLn ("Sum of these numbers is: " ++ show sum)
+    putStrLn ("Sum of these numbers is: " ++ show sum)  -- show is used to convert integer to string
